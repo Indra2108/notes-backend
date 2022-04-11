@@ -1,0 +1,26 @@
+{
+  "name": "notes-app-backend",
+  "version": "1.0.0",
+  "description": "Project Pertama HAPI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "lint": "eslint ./"
+  },
+  "keywords": [
+    "node",
+    "hapi",
+    "backend",
+    "notes-app",
+    "nodejs"
+  ],
+  "author": "Damar Wu",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.13.0"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "nanoid": "^3.3.2"
+  }
+}
